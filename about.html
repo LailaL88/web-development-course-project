@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/61c651c0ef.js" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+                <h3 class="logo__heading">oz.</h3>
+            </a>
+        </div>
+        <div class="menu-btn-container">
+            <div class="menu-btn">
+                <span class="menu-btn__burger"></span>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul class="menu-nav">
+                <div class="menu-nav__column">
+                    <li class="menu-nav__item">
+                        <a href="./about.html" class="menu-nav__link">About Me</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <span class="menu-nav__link heading-3">My work <i class="fas fa-angle-double-down"></i></span>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="./sparkleheart.html" class="menu-nav__link">Sparkleheart</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="./newsletter.html" class="menu-nav__link">Newsletter</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="./poetik.html" class="menu-nav__link">Poetik rapper's website</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="./portfolio2.html" class="menu-nav__link">My Portfolio 2</a>
+                    </li>
+                </div>
+                <div class="menu-nav__column">
+                    <li class="menu-nav__item">
+                        <a href="./weather.html" class="menu-nav__link">Weather Worldwide</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="./todo.html" class="menu-nav__link">To-do list</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="./portfolio3.html" class="menu-nav__link">Portfolio example</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="./keeper.html" class="menu-nav__link">Keeper app</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="./tictactoe.html" class="menu-nav__link">TicTacToe</a>
+                    </li>
+                </div>
+                <div class="menu-nav__column">
+                    <li class="menu-nav__item">
+                        <a href="./shop.html" class="menu-nav__link">Flower Shop</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="./emojipedia.html" class="menu-nav__link">Emoji encyclopedia</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="./restaurant.html" class="menu-nav__link">Victory restaurant</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="./quiz.html" class="menu-nav__link">Programming Quiz</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="./bubble.html" class="menu-nav__link">Bubble Shooter</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <section class="about-container">
+        <div class="about">
+            <span class="heading-3">Hello there</span>
+            <h1 class="typed-text"></h1>
+            <p>I am a highly motivated person, capable to learn fast and on my own and with a great interest for
+                programming.
+                This year I finished internship as a front-end developer at Piere.lv. The topics of the internship
+                included:
+                work with Figma, Github page, Pixel Perfect, Clickup, Slack, IDE editor, compiling SCSS,
+                configuring WordPress, work with domains and subdomains, implementing responsiveness,
+                work with version control system, browser developer tools, CSS framework, development
+                of custom WordPress theme, semantics, image sprites and other. </p>
+            <p>Custom WordPress theme was developed, using Advanced Custom Fields and Contact Form 7 plugins.
+                I know HTML and CSS (flex, Bootstrap) very well and JavaScript to a certain extent
+                (incl. arrow functions, ternary operator, destructuring, spread operator), PHP (OOP, MVC),
+                MySql, CSS animations (transitions, animations, transform). I have created pixel-perfect responsive
+                layouts based on Figma, Invisionapp and Photoshop design files (I believe I could learn other design
+                tools fast if needed).
+                I know basics of React, some SASS (variables, mixins, includes, nesting), Chrome developer tools, Git
+                (merge, branch, push,
+                pull, commit, add, status, clone, checkout), Git Bash and Github, putting files on a server (C-panel,
+                file manager, fixing file paths).
+                The latest project I did was implemented using BEM methodology. At the moment I am learning React.js. I
+                speak English and Latvian very well.
+                Plus - I am a good person.</p>
+            <p>I truly wish to learn and improve as a developer.</p>
+        </div>
+        <div class="contact">
+            <span class="heading-3">Get in touch</span>
+            <form id="myForm" method="post">
+                <input name="name" id="name" type="text" placeholder="Your name.." required /><br />
+                <input name="email" id="email" type="email" placeholder="Your email.." required /><br />
+                <textarea name="message" id="message" rows="5" placeholder="Message..." required ></textarea><br />
+            
+                <input type="submit" id="submitFormData" onclick="SubmitFormData();" value="Submit" name="submit"/>
+            </form>
+            <script src="./form.js"></script>
+            <p>Contact email: olga_zevtuna@inbox.lv</p>
+        </div>
+    </section>
+    <footer>
+        <p class="heading-3">Need more?</p>
+        <a href="https://github.com/LailaL88">GitHub</a>
+        <span>/</span>
+        <a href="https://www.linkedin.com/in/olga-zevtuna-523495203/">LinkedIn</a>
+    </footer>
+    <script src="./menu.js"></script>
+    <script src="./about.js"></script>
+</body>
+
+</html>
